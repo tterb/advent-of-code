@@ -24,3 +24,4 @@ My [**Advent of Code**](http://adventofcode.com/) solutions for 2017.
    * [Day 17](https://github.com/JonSn0w/advent-of-code/blob/master/day17.py)
    * [Day 18](https://github.com/JonSn0w/advent-of-code/blob/master/day18.py)
    * [Day 19](https://github.com/JonSn0w/advent-of-code/blob/master/day19.py)
+   * [Day 20](https://github.com/JonSn0w/advent-of-code/blob/master/day20.py)
