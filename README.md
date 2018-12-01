@@ -1,28 +1,19 @@
-# Advent of Code
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/16360374/49324718-7954f100-f4e8-11e8-8ef6-1b701afc504f.png" width="250"/>
+</p>  
+
 <p align="right">
     <a src="https://github.com/JonSn0w/advent-of-code/blob/master/LICENSE.md"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg"/></a>
     <a src="https://github.com/JonSn0w/advent-of-code"><img alt="MIT License" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"/></a>
 </p>
 
-My [**Advent of Code**](http://adventofcode.com/) solutions for 2017.
-   * [Day 1](https://github.com/JonSn0w/advent-of-code/blob/master/day1.py)
-   * [Day 2](https://github.com/JonSn0w/advent-of-code/blob/master/day2.py)
-   * [Day 3](https://github.com/JonSn0w/advent-of-code/blob/master/day3.py)
-   * [Day 4](https://github.com/JonSn0w/advent-of-code/blob/master/day4.py)
-   * [Day 5](https://github.com/JonSn0w/advent-of-code/blob/master/day5.py)
-   * [Day 6](https://github.com/JonSn0w/advent-of-code/blob/master/day6.py)
-   * [Day 7](https://github.com/JonSn0w/advent-of-code/blob/master/day7.py)
-   * [Day 8](https://github.com/JonSn0w/advent-of-code/blob/master/day8.py)
-   * [Day 9](https://github.com/JonSn0w/advent-of-code/blob/master/day9.py)
-   * [Day 10](https://github.com/JonSn0w/advent-of-code/blob/master/day10.py)
-   * [Day 11](https://github.com/JonSn0w/advent-of-code/blob/master/day11.py)
-   * [Day 12](https://github.com/JonSn0w/advent-of-code/blob/master/day12.py)
-   * [Day 13](https://github.com/JonSn0w/advent-of-code/blob/master/day13.py)
-   * [Day 14](https://github.com/JonSn0w/advent-of-code/blob/master/day14.py)
-   * [Day 15](https://github.com/JonSn0w/advent-of-code/blob/master/day15.py)
-   * [Day 16](https://github.com/JonSn0w/advent-of-code/blob/master/day16.py)
-   * [Day 17](https://github.com/JonSn0w/advent-of-code/blob/master/day17.py)
-   * [Day 18](https://github.com/JonSn0w/advent-of-code/blob/master/day18.py)
-   * [Day 19](https://github.com/JonSn0w/advent-of-code/blob/master/day19.py)
-   * [Day 20](https://github.com/JonSn0w/advent-of-code/blob/master/day20.py)
-   * [Day 21](https://github.com/JonSn0w/advent-of-code/blob/master/day21.py)
+[**Advent of Code**](http://adventofcode.com/) is an Advent calendar created by [Eric Wastl](http://was.tl/), composed of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a [speed contest](https://adventofcode.com/2018/leaderboard), interview prep, company training, university coursework, practice problems, or to [challenge each other](https://www.reddit.com/r/adventofcode/search?q=flair%3Aupping&restrict_sr=on).
+
+In 2017, I decided to use the Avent of Code to further familiarize myself with Python and I've been shocked at how big of an impact it's had on my programming as a whole. I really can't recommend it enough to anyone who enjoys programming and problem solving.  
+
+Now that I'm in the process of interviewing for summer internships, I'm planning to use this year's challenges to explore new languages and brush up on some that I haven't seen in awhile.
+
+## Archive  
+My past solutions for:
+   * [2017](./2017/)
