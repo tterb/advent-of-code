@@ -5,7 +5,7 @@
 
 # Your goal is to find the total score for all groups in your input. Each group is assigned a score which is one more than the score of the group that immediately contains it. (The outermost group gets a score of 1.)
 
-import re
+import re;
 
 stream = input();
 depth, score, garbageCount, garbage = 0, 0, 0, False;
