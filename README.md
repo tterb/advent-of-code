@@ -8,7 +8,7 @@
     <a src="https://github.com/JonSn0w/advent-of-code"><img alt="MIT License" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"/></a>
 </p>
 
-[**Advent of Code**](http://adventofcode.com/) is an Advent calendar created by [Eric Wastl](http://was.tl/), composed of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a [speed contest](https://adventofcode.com/2018/leaderboard), interview prep, company training, university coursework, practice problems, or to [challenge each other](https://www.reddit.com/r/adventofcode/search?q=flair%3Aupping&restrict_sr=on).
+[**Advent of Code**](http://adventofcode.com/) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a [speed contest](https://adventofcode.com/2018/leaderboard), interview prep, company training, university coursework, practice problems, or to [challenge each other](https://www.reddit.com/r/adventofcode/search?q=flair%3Aupping&restrict_sr=on).
 
 In 2017, I decided to use the Avent of Code to further familiarize myself with Python and I've been shocked at how big of an impact it's had on my programming as a whole. I really can't recommend it enough to anyone who enjoys programming and problem solving.  
 
