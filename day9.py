@@ -1,7 +1,11 @@
 from collections import deque
 
 inp = input().split(' ')
-players, last = int(inp[0]), int(inp[6])
+players = int(inp[0])
+# part 1
+last = int(inp[6])
+# part 2
+# last = int(inp[6])*100
 scores = [0 for i in range(players)]
 marbles = deque([0])
 for i in range(1, last+1):
@@ -13,5 +17,3 @@ for i in range(1, last+1):
         marbles.rotate(-1)
         marbles.append(i)
 print(max(scores))
-        
-        
