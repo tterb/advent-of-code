@@ -17,7 +17,8 @@ def parse(data):
 def main():
     data = [int(i) for i in input().split(' ')]
     total, value, remaining = parse(data)
-    print(total)
+    print(f'part 1: {total}')
+    print(f'part 2: {value}')
 
 
 if __name__ == '__main__':
