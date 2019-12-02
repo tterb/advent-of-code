@@ -24,6 +24,8 @@ ip = int(inp.pop(0).split()[1])
 inst = [[i.split()[0],int(i.split()[1]),int(i.split()[2]),int(i.split()[3])] for i in inp]
 reg = [0,0,0,0,0,0]
 n = reg[ip]
+values = set()
+prev = None
 while n < len(inst):
     op, a, b, c = inst[n]
     reg[c] = oper[op](reg, a, b)
@@ -31,5 +33,11 @@ while n < len(inst):
     reg[ip] += 1
     n = reg[ip]
     if n == 29:
-        print(reg[5])
-        break
+        if reg[5] not in values:
+            # print(reg[5])
+            values.add(reg[5])
+            prev = reg[5]
+        else:
+            print(prev)
+            break
+print(len(values))

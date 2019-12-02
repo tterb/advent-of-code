@@ -29,6 +29,11 @@ Temporary Items
 # Python
 __pycache__
 
-*.txt
+# Go
+bin/
+
+# Other
+README/*
+# *.txt
 !input/*.txt
 *_.*
