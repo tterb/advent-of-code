@@ -9,6 +9,7 @@ import (
 
 func main() {
     total := 0
+    // Read input from stdin
     scanner := bufio.NewScanner(os.Stdin)
     for scanner.Scan() {
         num, _ := strconv.Atoi(scanner.Text())
