@@ -36,4 +36,4 @@ bin/
 README/*
 # *.txt
 !input/*.txt
-*_.*
+**/*_.*
