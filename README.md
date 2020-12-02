@@ -6,7 +6,7 @@
         <img src="https://img.shields.io/badge/status-active-brightgreen.svg" alt="active"/>
     </a>
     <a href="https://github.com/tterb/advent-of-code">
-        <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="MIT License" />
+        <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" />
     </a>
     <a href="https://github.com/tterb/advent-of-code/blob/master/LICENSE.md">
         <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License" />
