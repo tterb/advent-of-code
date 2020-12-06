@@ -37,3 +37,8 @@ README/*
 # *.txt
 !input/*.txt
 **/*_.*
+
+
+# Added by cargo
+
+/target
