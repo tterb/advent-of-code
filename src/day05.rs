@@ -51,7 +51,7 @@ pub fn part1(input: String) {
             max_id = seat_id;
         }
     }
-    println!("Seat ID: {}", max_id);
+    println!("Max Seat ID: {}", max_id);
 }
 
 pub fn part2(input: String) {
@@ -69,5 +69,5 @@ pub fn part2(input: String) {
         }
     }
     let my_seat = find_seat(&seats);
-    println!("seat: {}", my_seat);
+    println!("My Seat ID: {}", my_seat);
 }
