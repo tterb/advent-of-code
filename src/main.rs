@@ -37,7 +37,7 @@ fn main() {
     if args.len() >= 2 {
         day = args[1].clone();
     } else {
-        println!("Enter day: ");
+        print!("Enter day: ");
         io::stdin()
             .read_line(&mut day)
             .expect("Failed to read line");
@@ -55,7 +55,7 @@ fn main() {
     let cwd = env::current_dir().unwrap();
     let filename = cwd
         .join("input")
-        .join(format!("day{:02}_.txt", day_num));
+        .join(format!("day{:02}.txt", day_num));
     println!("Reading {}", filename.display());
     let input = fs::read_to_string(filename)
         .expect("Error while reading");
