@@ -1,6 +1,7 @@
 use std::env;
 use std::fs;
 use std::io;
+use std::io::Write;
 use std::time::{Instant, Duration};
 
 use advent_of_code::{get_day, noop};
@@ -38,6 +39,7 @@ fn main() {
         day = args[1].clone();
     } else {
         print!("Enter day: ");
+        io::stdout().flush().unwrap();
         io::stdin()
             .read_line(&mut day)
             .expect("Failed to read line");
