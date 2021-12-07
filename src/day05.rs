@@ -23,8 +23,8 @@ fn mark_line(map: &mut Vec<Vec<i32>>, line: &Vec<Vec<i32>>, overlap_count: &mut 
     let mut y1 = line[0][1];
     let x2 = line[1][0];
     let y2 = line[1][1];
-    let mut dx = (x2 - x1);
-    let mut dy = (y2 - y1);
+    let mut dx = x2 - x1;
+    let mut dy = y2 - y1;
     if x1 != x2 && y1 != y2 && (!horiz && (x1 - y1).abs() != (x2 - y2).abs()) {
         return;
     }
