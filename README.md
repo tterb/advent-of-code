@@ -23,3 +23,4 @@ You can also checkout solutions from previous years:
    * [2018](./2018/)
    * [2019](./2019/)
    * [2020](./2020/)
+   * [2021](./2021/)
