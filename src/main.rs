@@ -2,7 +2,7 @@ use std::env;
 use std::fs;
 use std::io;
 use std::io::Write;
-use std::time::{Instant, Duration};
+use std::time::{Duration, Instant};
 
 use advent_of_code::{get_day, noop};
 
@@ -41,9 +41,18 @@ fn main() {
     print!("Enter day: ");
     io::stdout().flush().unwrap();
     io::stdin()
-    .read_line(&mut day)
-    .expect("Failed to read line");
+      .read_line(&mut day)
+      .expect("Failed to read line");
   }
+
+  // Determine whether to use example input
+  let mut example_input = false;
+  if args.len() == 3 {
+    if args[2] == "-e" {
+      example_input = true;
+    }
+  }
+
   // Parse day as number
   day = day.trim().to_string();
   let day_num: u32 = match day.parse() {
@@ -51,23 +60,27 @@ fn main() {
     Err(_) => {
       println!("Invalid day number: {}", day);
       return;
-    },
+    }
   };
   // Read input file
   let cwd = env::current_dir().unwrap();
-  let filename = cwd
-  .join("input")
-  .join(format!("day{:02}.txt", day_num));
+  let input_dir = cwd.join("input");
+  let input_file = format!("day{:02}.txt", day_num);
+  let filename;
+  if example_input == true {
+    filename = cwd.join("input").join("examples").join(input_file);
+  } else {
+    filename = input_dir.join(input_file);
+  };
   println!("Reading {}", filename.display());
-  let input = fs::read_to_string(filename)
-  .expect("Error while reading");
+  let input = fs::read_to_string(filename).expect("Error while reading");
 
   // Get corresponding function
 
   let to_run = get_day(day_num);
   // Time it
   if to_run.0 != noop {
-    println!("Running Part 1");
+    println!("\nRunning Part 1");
     let part1_start = Instant::now();
     to_run.0(input.clone());
     let part1_dur = part1_start.elapsed();
@@ -75,7 +88,7 @@ fn main() {
   }
 
   if to_run.1 != noop {
-    println!("Running Part 2");
+    println!("\nRunning Part 2");
     let part2_start = Instant::now();
     to_run.1(input.clone());
     let part2_dur = part2_start.elapsed();
