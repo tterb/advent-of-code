@@ -15,42 +15,42 @@ fn get_direction_step(dir: &str) -> (i32, i32) {
   return direction_steps[dir];
 }
 
-fn print_map(head: (i32, i32), tail: Vec<(i32, i32)>, limit: usize) {
-  let mut board: Vec<Vec<String>> = vec![vec![".".to_string(); limit + 1]; limit + 1];
-  for (i, t) in tail.iter().enumerate() {
-    board[t.1 as usize][t.0 as usize] = i.to_string();
-  }
-  board[head.1 as usize][head.0 as usize] = "H".to_string();
-  for i in board {
-    println!(
-      "{:?}",
-      i.iter()
-        .map(|s| s.to_owned().to_string() + " ")
-        .collect::<String>()
-    );
-  }
-  println!();
-}
+// fn print_map(head: (i32, i32), tail: Vec<(i32, i32)>, limit: usize) {
+//   let mut board: Vec<Vec<String>> = vec![vec![".".to_string(); limit + 1]; limit + 1];
+//   for (i, t) in tail.iter().enumerate() {
+//     board[t.1 as usize][t.0 as usize] = i.to_string();
+//   }
+//   board[head.1 as usize][head.0 as usize] = "H".to_string();
+//   for i in board {
+//     println!(
+//       "{:?}",
+//       i.iter()
+//         .map(|s| s.to_owned().to_string() + " ")
+//         .collect::<String>()
+//     );
+//   }
+//   println!();
+// }
 
-fn print_snake_map(snake: &Vec<(i32, i32)>, limit: usize) {
-  let mut board: Vec<Vec<String>> = vec![vec![".".to_string(); limit + 1]; limit + 1];
-  for (i, t) in snake.iter().enumerate() {
-    if i == 0 {
-      board[t.1 as usize][t.0 as usize] = "H".to_string();
-    } else {
-      board[t.1 as usize][t.0 as usize] = i.to_string();
-    }
-  }
-  for i in board {
-    println!(
-      "{:?}",
-      i.iter()
-        .map(|s| s.to_owned().to_string() + " ")
-        .collect::<String>()
-    );
-  }
-  println!();
-}
+// fn print_snake_map(snake: &Vec<(i32, i32)>, limit: usize) {
+//   let mut board: Vec<Vec<String>> = vec![vec![".".to_string(); limit + 1]; limit + 1];
+//   for (i, t) in snake.iter().enumerate() {
+//     if i == 0 {
+//       board[t.1 as usize][t.0 as usize] = "H".to_string();
+//     } else {
+//       board[t.1 as usize][t.0 as usize] = i.to_string();
+//     }
+//   }
+//   for i in board {
+//     println!(
+//       "{:?}",
+//       i.iter()
+//         .map(|s| s.to_owned().to_string() + " ")
+//         .collect::<String>()
+//     );
+//   }
+//   println!();
+// }
 
 pub fn part2(input: String) {
   let snake_length = 10;
